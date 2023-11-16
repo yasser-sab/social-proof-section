@@ -1,0 +1,127 @@
+@import "https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap";
+@import "variables.css";
+@import "globals.css";
+@import "media.css";
+
+header {
+	display: flex;
+	align-items: center;
+}
+
+.intro {
+	flex-basis: 51.351%;
+}
+	.intro__header {
+
+	}
+
+	.intro__text {
+		font-size: 1.2em;
+		color: var(--dark-grayish-magenta);
+	}
+
+.reviews-container {
+	width: 34.667rem;
+	height: 13.334rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-basis: 48.640%;
+}
+	.reviews-container__review {
+		width: 85.5769%;
+		height: 28%;
+		border-radius: .667em;
+		background-color: var(--light-grayish-magenta);
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.reviews-container__review--first {
+		align-self: flex-start;
+	}
+
+	.reviews-container__review--second {
+		align-self: center;
+	}
+
+	.reviews-container__review--third {
+		align-self: flex-end;
+	}
+
+	.reviews-container__text {
+		color: var(--very-dark-magenta);
+		font-weight: var(--large-font);
+	}
+
+main {
+	display: flex;
+	height: 17.734rem;
+	justify-content: space-between;
+	margin-top:4.667rem; 
+}
+
+.card {
+	width: 31.531%;
+	height: 15.6rem;
+	background-color: red;
+	border-radius: .667em;
+	padding: 2.667rem 2.134rem;
+	background-color: var(--very-dark-magenta);
+}
+
+.card--first {
+	align-self: flex-start;
+}
+
+.card--second {
+	align-self: center;
+}
+
+.card--third {
+	align-self: flex-end;
+}
+	.card__account {
+		display: flex;
+		align-items: center;
+	}
+		.card__img {
+			width: 3em;
+			height: 3em;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			border-radius: 50%;
+			margin-right: 1.6em;
+		}
+
+		.card__img--colton {
+			background-image: url('../../images/image-colton.jpg');
+		}
+
+		.card__img--irene {
+			background-image: url('../../images/image-Irene.jpg');
+		}
+
+		.card__img--anne {
+			background-image: url('../../images/image-Anne.jpg');
+		}
+
+		.card__info {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+	.card__text {
+		margin-top:2em;
+	}
+
+
+
+
+
+
+
+

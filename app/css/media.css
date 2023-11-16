@@ -1,0 +1,40 @@
+@media(max-width:375px) {
+	html {
+		font-size: 50%;
+	}
+
+	body {
+		display: block;
+	}
+
+	header {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.intro ,
+	.reviews-container {
+		flex-basis: 100% !important;
+	}
+
+	.reviews-container {
+		height: 20rem !important;
+		margin-top: 20px;
+		gap:30px
+	}
+
+	.reviews-container__review {
+		width: 100% !important;
+		flex-direction: column;
+	}
+
+	main {
+		flex-direction: column;
+		height: 50rem !important;
+		width: 100% !important;
+	}
+
+	.card {
+		width: 100% !important;
+	}
+}
